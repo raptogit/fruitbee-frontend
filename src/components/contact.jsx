@@ -127,18 +127,21 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
+                    <t>Rohan :       </t>
+                    <a href={props.data ? props.data.facebook : 'https://www.linkedin.com/in/rohan-solanke/'}>
+                      <i className='fa fa-linkedin'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
+                    <t>Pratyush :       </t>
+                    <a href={props.data ? props.data.twitter : 'https://www.linkedin.com/in/pratyush-pattnaik-1792ab171/'}>
+                      <i className='fa fa-linkedin'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
+                    <t>Sandeep :       </t>
+                    <a href={props.data ? props.data.youtube : 'https://www.linkedin.com/in/sandeep-dey-122sd/'}>
+                      <i className='fa fa-linkedin'></i>
                     </a>
                   </li>
                 </ul>

@@ -60,9 +60,9 @@ export const Header = (props) => {
       </div>
       <Modal show={show} onHide={handleClose} style={{opacity:1}}>
         <Modal.Header>
-          <Modal.Title>{msg.prediction}</Modal.Title>
+          <Modal.Title>Prediction : {msg.prediction}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{msg.message}</Modal.Body>
+        <Modal.Body>Warning! : {msg.message}</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
